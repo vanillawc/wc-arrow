@@ -1,0 +1,32 @@
+{
+  "name": "@vanillawc/wc-arrow",
+  "version": "0.0.1",
+  "description": "A web component for creating custom arrow HTML elements.",
+  "main": "dist/wc-arrow-node.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist/wc-arrow-node.min.js",
+    "dist/wc-arrow-node.js",
+    "dist/minify.cmd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanillawc/wc-arrow.git"
+  },
+  "keywords": [
+    "web-component",
+    "custom-element",
+    "html",
+    "javascript",
+    "arrow",
+    "arrows"
+  ],
+  "author": "Jussi Utunen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanillawc/wc-arrow/issues"
+  },
+  "homepage": "https://github.com/vanillawc/wc-arrow#readme"
+}

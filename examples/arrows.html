@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="../dist/wc-arrow.js"></script>
+    </head>
+    <style>
+        wc-arrow {
+          display:inline-flex;
+          stroke-width: 5px;
+          stroke: black;
+          fill: none;
+          height: 250px;
+          width: 250px;
+          stroke-linejoin: round;
+          background-color: lightgray;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .filled {
+          fill: coral;
+          background-color: transparent;
+          color: black;
+        }
+    </style>
+    <body>
+      <wc-arrow l=150 w=150 tail-w=40 peak-coll=0> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 peak-coll=50> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 peak-coll=100> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 peak-coll=0 unclosed> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 peak-coll=50 unclosed> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 peak-coll=100 unclosed> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 peak-coll=100 unclosed=false> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 peak-coll=100 rot=-45> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 peak-coll=100 rot=45> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 tail-cont=33 peak-coll=0> </wc-arrow>
+      <wc-arrow l=150 w=150 tail-w=40 tail-cont=67 peak-coll=50> </wc-arrow>
+      <wc-arrow class="filled" l=150 w=150 tail-w=40 tail-cont=100 peak-coll=100> </wc-arrow>
+      <wc-arrow class="filled" l=150 w=150 tail-l=30 tail-w=40 peak-coll=0> </wc-arrow>
+      <wc-arrow class="filled" l=150 w=150 tail-l=30 tail-w=40 peak-coll=50> </wc-arrow>
+      <wc-arrow class="filled" l=150 w=150 tail-l=30 tail-w=40 peak-coll=100> </wc-arrow>
+      <wc-arrow class="filled" l=150 w=150 peak-l=30 tail-l=30 tail-w=40 peak-coll=0> </wc-arrow>
+      <wc-arrow class="filled" l=150 w=150 peak-l=30 tail-l=30 tail-w=40 peak-coll=50> </wc-arrow>
+      <wc-arrow l=150 w=150 peak-l=30 tail-l=30 tail-w=40 peak-coll=100> </wc-arrow>
+      <wc-arrow scale=0.8 l=150 w=150 tail-w=40 peak-coll=0> </wc-arrow>
+      <wc-arrow scale=1.2 l=150 w=150 tail-w=40 peak-coll=50> </wc-arrow>
+      <wc-arrow scale=1.6 l=150 w=150 tail-w=40 peak-coll=100> </wc-arrow>
+    </body>
+</html>
