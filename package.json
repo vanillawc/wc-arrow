@@ -4,7 +4,7 @@
   "description": "A web component for creating custom arrow HTML elements.",
   "main": "dist/wc-arrow-node.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postversion": "git push --follow-tags"
   },
   "files": [
     "dist/wc-arrow-node.min.js",
