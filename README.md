@@ -6,14 +6,14 @@ Component custom attributes and CSS style together enable forming of various arr
 
 Wc-arrow is a standalone vanilla JS web component that does not use shadow DOM.
 
-Live demo available [here.](http://51.38.51.120/customarrow/)
+Live demo available [here.](http://51.38.51.120/wc-arrow/)
 
 ## Including the component to an HTML file
 
 1. Import polyfill, this is not needed for modern browsers:
 
     ```html
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/custom-elements/1.2.4/custom-elements.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/custom-elements/1.4.1/custom-elements.min.js"></script>
     ```
 
 2. Import custom element:
