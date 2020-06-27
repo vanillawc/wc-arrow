@@ -1,6 +1,6 @@
 {
   "name": "@vanillawc/wc-arrow",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A web component for creating custom arrow HTML elements.",
   "main": "dist/wc-arrow-node.min.js",
   "scripts": {
