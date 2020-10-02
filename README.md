@@ -62,9 +62,9 @@ Live demo available [here.](http://51.38.51.120/wc-arrow/)
    ```
 ## Display style
 
-Element display style should be set to flex or inline-flex.
+Element display style can be set to flex, inline-flex or none.
 
-When the element renders itself, it sets its display style to flex, if the style is not flex or inline-flex.
+When the element renders itself, it sets its display style to flex, if the style is not flex, inline-flex or none.
 
 ## Attributes
 
@@ -206,6 +206,30 @@ HTML example:
 ```html
 <wc-arrow l=100 w=100 scale=0.5> </wc-arrow>
 ```
+## Essential CSS properties
+
+stroke-width
+
+stroke
+
+fill
+
+background-color
+
+stroke-linejoin
+
+border-radius
+
+transform: rotate
+
+transform: scale
+
+height
+
+width
+
+Take a look at [live demo](http://51.38.51.120/wc-arrow/) to see how custom attributes and CSS properties are used together.
+
 ## Usage example
 
 Take a look at file arrow.html in examples folder
