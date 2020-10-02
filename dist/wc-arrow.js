@@ -121,7 +121,7 @@ class Customarrow extends HTMLElement {
     //this.arrow.style.transformOrigin = "0% 50%";
     this.arrow.style.position = "absolute";
     let styleDisplay = window.getComputedStyle(this).display;
-    if (styleDisplay !== "flex" && styleDisplay !== "inline-flex") {
+    if (styleDisplay !== "flex" && styleDisplay !== "inline-flex" && styleDisplay !== "none") {
       this.style.display = "flex";
     }
     this.style.justifyContent = "center";
