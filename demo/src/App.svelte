@@ -406,7 +406,7 @@
       <div class="control control_title">Custom attributes</div>
 
       <div class="control">
-        arrow length
+        l (arrow length)
         <input type="range" min="0" max="1000" bind:value={length} />
         <div class="together">
           <input type="text" bind:value={length} size="1" />
@@ -415,7 +415,7 @@
       </div>
 
       <div class="control">
-        arrow width
+        w (arrow width)
         <input type="range" min="0" max="1000" bind:value={width} />
         <div class="together">
           <input type="text" bind:value={width} size="1" />
@@ -424,7 +424,7 @@
       </div>
 
       <div class="control">
-        tail length
+        tail-l (tail length)
         <input type="range" min="0" max="100" bind:value={tailLength} />
         <div class="together">
           <input type="text" bind:value={tailLength} size="1" />
@@ -433,7 +433,7 @@
       </div>
 
       <div class="control">
-        tail width
+        tail-w (tail width)
         <input type="range" min="0" max="100" bind:value={tailWidth} />
         <div class="together">
           <input type="text" bind:value={tailWidth} size="1" />
@@ -442,7 +442,7 @@
       </div>
 
       <div class="control">
-        rotation
+        rot (rotation)
         <input type="range" min=-360 max=360 bind:value={rotation} />
         <input type="text" bind:value={rotation} size="1" />
       </div>
@@ -450,7 +450,7 @@
       <div class="control">
         <input type="checkbox" on:change={checkBoxHandler} bind:checked={absPeakLengthEnabled} />
         <div class="together" id="peak_length">
-          peak length
+          peak-l (peak length)
           <input type="range" min="0" max="200" bind:value={peakLength} />
           <div class="together">
             <input type="text" bind:value={peakLength} size="1" />
@@ -460,7 +460,7 @@
       </div>
 
       <div class="control">
-        tail contraction
+        tail-cont (tail contraction)
         <input type="range" min="0" max="100" bind:value={contraction} />
         <div class="together">
           <input type="text" bind:value={contraction} size="1" />
@@ -469,7 +469,7 @@
       </div>
 
       <div class="control">
-        peak collapse
+        peak-coll (peak collapse)
         <input type="range" min="0" max="100" bind:value={peakCollapse} />
         <div class="together">
           <input type="text" bind:value={peakCollapse} size="1" />
@@ -495,28 +495,28 @@
       <div class="control control_style control_title">Element style</div>
 
       <div class="control control_style">
-        stroke width
+        stroke-width
         <input type="range" min="0" max="100" bind:value={strokeWidth} />
         <input type="text" bind:value={strokeWidth} size="1" />
       </div>
 
       <div class="control control_style">
-        stroke color
+        stroke (stroke color)
         <input type="color" bind:value={strokeColor} />
       </div>
 
       <div class="control control_style">
-        fill color
+        fill (fill color)
         <input type="color" bind:value={fillColor} />
       </div>
 
       <div class="control control_style">
-        background color
+        background-color
         <input type="color" bind:value={bgColor} />
       </div>
 
       <div class="control control_style">
-        stroke linejoin
+        stroke-linejoin
         <select bind:value={strokeLinejoin}>
           <option value="arcs">arcs</option>
           <option value="bevel">bevel</option>
@@ -527,19 +527,19 @@
       </div>
 
       <div class="control control_style">
-        border radius
+        border-radius
         <input type="range" min=0 max=100 bind:value={borderRadius} />
         <input type="text" bind:value={borderRadius} size="1" />
       </div>
 
       <div class="control control_style">
-        rotation
+        transform: rotate
         <input type="range" min=0 max=360 bind:value={elementRotation} />
         <input type="text" bind:value={elementRotation} size="1" />
       </div>
 
       <div class="control control_style">
-        scale
+        transform: scale
         <input type="range" step=0.01 min=0 max=2 bind:value={styleScale} />
         <input type="text" bind:value={styleScale} size="1" />
       </div>
