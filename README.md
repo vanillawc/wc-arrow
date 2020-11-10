@@ -8,7 +8,7 @@ Component custom attributes and CSS style together enable forming of various arr
 
 Wc-arrow is a standalone vanilla JS web component that does not use shadow DOM.
 
-Live demo available [here.](http://51.38.51.120/wc-arrow/)
+Live demo available [here.](http://135.181.40.67/wc-arrow/)
 
 ## Including the component to an HTML file
 
