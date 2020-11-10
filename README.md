@@ -228,7 +228,7 @@ height
 
 width
 
-Take a look at [live demo](http://51.38.51.120/wc-arrow/) to see how custom attributes and CSS properties are used together.
+Take a look at [live demo](http://135.181.40.67/wc-arrow/) to see how custom attributes and CSS properties are used together.
 
 ## Usage example
 
