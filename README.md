@@ -1,5 +1,12 @@
-[![minified](https://badgen.net/badge/minified/2.8%20kB/blue)](https://badgen.net/badge/minified/2.8%20kB/blue)
-[![minified & compressed](https://badgen.net/badge/minified%20&%20compressed/1.5%20kB/blue)](https://badgen.net/badge/minified%20&%20compressed/1.5%20kB/blue)
+<div align="center">
+  <a href="https://github.com/vanillawc/wc-arrow/releases"><img src="https://badgen.net/github/tag/vanillawc/wc-arrow" alt="GitHub Releases"></a>
+  <a href="https://www.npmjs.com/package/@vanillawc/wc-arrow"><img src="https://badgen.net/npm/v/@vanillawc/wc-arrow" alt="NPM Releases"></a>
+  <a href="https://bundlephobia.com/result?p=@vanillawc/wc-arrow"><img src="https://badgen.net/bundlephobia/minzip/@vanillawc/wc-arrow" alt="Bundlephobia"></a>
+  <a href="https://github.com/vanillawc/wc-arrow/actions"><img src="https://github.com/vanillawc/wc-arrow/workflows/Latest/badge.svg" alt="Latest Status"></a>
+  <a href="https://github.com/vanillawc/wc-arrow/actions"><img src="https://github.com/vanillawc/wc-arrow/workflows/Release/badge.svg" alt="Release Status"></a>
+
+  <a href="https://discord.gg/aSWYgtybzV"><img alt="Discord" src="https://img.shields.io/discord/723296249121603604?color=%23738ADB"></a>
+</div>
 
 # wc-arrow
 A web component for creating custom arrow HTML elements.
